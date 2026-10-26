@@ -1,0 +1,31 @@
+# Sistema SeguridadApp #
+
+## Descripción
+Este proyecto es una aplicación Android desarrollada en Java que implementa medidas robustas de seguridad para proteger la información local, la gestión de sesiones y el uso seguro de componentes nativos, previniendo vulnerabilidades comunes del OWASP Mobile Top 10.
+
+## Vulnerabilidades Identificadas
+- Inyección SQL (Mitigada mediante consultas parametrizadas).
+- Comunicación no segura en texto plano (Mitigada con Network Security Configuration).
+- Exposición de datos sensibles en almacenamiento local (Mitigada con almacenamiento cifrado).
+
+## Mejoras Implementadas
+- Cifrado de datos locales.
+- Forzado de comunicación segura y bloqueo de tráfico sin cifrar.
+- Validación estricta de sesiones de usuario y ofuscación de código.
+
+## Documentación
+- [Vulnerabilidades](vulnerabilities.md)
+- [Best Practices](best_practices.md)
+- [Security Tips](security_tips.md)
+- [Security Improvement Program](security_improvement_program.md)
+
+## Cómo Ejecutar la Aplicación de Forma Segura
+1. Clonar el repositorio en su equipo local.
+2. Importar el proyecto utilizando Android Studio.
+3. Configurar su archivo local de propiedades añadiendo su clave de API de Google Maps.
+4. Sincronizar el proyecto con Gradle.
+5. Ejecutar la aplicación en un dispositivo físico o emulador Android.
+6. Asegurarse de que los permisos de red, ubicación y cámara requeridos estén debidamente concedidos.
+
+## Reporte de Vulnerabilidades
+El reporte detallado de las pruebas de seguridad y el análisis estático realizado se encuentra guardado en el archivo `vulnerability_report.pdf`.
