@@ -22,10 +22,12 @@ Este proyecto es una aplicación Android desarrollada en Java que implementa med
 ## Cómo Ejecutar la Aplicación de Forma Segura
 1. Clonar el repositorio en su equipo local.
 2. Importar el proyecto utilizando Android Studio.
-3. Configurar su archivo local de propiedades añadiendo su clave de API de Google Maps.
-4. Sincronizar el proyecto con Gradle.
-5. Ejecutar la aplicación en un dispositivo físico o emulador Android.
-6. Asegurarse de que los permisos de red, ubicación y cámara requeridos estén debidamente concedidos.
+3. Crear un archivo llamado `local.properties` en la raíz del proyecto si no existe.
+4. Agregar la clave de API de Google Maps en dicho archivo con el siguiente formato:
+   `AIzaSyCq4JM--e0DBKAws3xNkNzGIcKaT2ZiNsc`
+5. Sincronizar el proyecto con Gradle (`Sync Now`).
+6. Ejecutar la aplicación en un dispositivo físico o emulador Android.
+7. Asegurarse de que los permisos de red, ubicación y cámara requeridos estén debidamente concedidos.
 
 ## Reporte de Vulnerabilidades
 El reporte detallado de las pruebas de seguridad y el análisis estático realizado se encuentra guardado en el archivo `vulnerability_report.pdf`.
