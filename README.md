@@ -19,6 +19,10 @@ Este proyecto es una aplicación Android desarrollada en Java que implementa med
 - [Security Tips](security_tips.md)
 - [Security Improvement Program](security_improvement_program.md)
 
+## Reportes de Seguridad
+- [Reporte de análisis estático (PDF)](vulnerability_report.pdf)
+- [Reporte de análisis dinámico (PDF)](vulnerability_dynamicReport.pdf)
+
 ## Cómo Ejecutar la Aplicación de Forma Segura
 1. Clonar el repositorio en su equipo local.
 2. Importar el proyecto utilizando Android Studio.
