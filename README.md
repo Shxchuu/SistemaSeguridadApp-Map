@@ -30,4 +30,4 @@ Este proyecto es una aplicación Android desarrollada en Java que implementa med
 7. Asegurarse de que los permisos de red, ubicación y cámara requeridos estén debidamente concedidos.
 
 ## Reporte de Vulnerabilidades
-El reporte detallado de las pruebas de seguridad y el análisis estático realizado se encuentra guardado en el archivo `vulnerability_report.pdf`.
+El reporte detallado de las pruebas de seguridad y el análisis estático se encuentra en el archivo `vulnerability_report.pdf`, complementado por el informe de simulación de seguridad y análisis dinámico en tiempo de ejecución registrado en el archivo `vulnerability_dynamicReport.pdf`.
