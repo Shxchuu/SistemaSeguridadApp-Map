@@ -23,6 +23,9 @@ Este proyecto es una aplicación Android desarrollada en Java que implementa med
 - [Reporte de análisis estático (PDF)](vulnerability_report.pdf)
 - [Reporte de análisis dinámico (PDF)](vulnerability_dynamicReport.pdf)
 
+## Informe Técnico
+- [Informe de análisis y mejora de seguridad de una aplicación Android](Informe_Seguridad_Aplicacion_Android(Alumno).pdf)
+
 ## Cómo Ejecutar la Aplicación de Forma Segura
 1. Clonar el repositorio en su equipo local.
 2. Importar el proyecto utilizando Android Studio.
